@@ -50,9 +50,9 @@
             // login_AF__user_control1
             // 
             this.login_AF__user_control1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.login_AF__user_control1.Location = new System.Drawing.Point(0, 0);
+            this.login_AF__user_control1.Location = new System.Drawing.Point(3, 3);
             this.login_AF__user_control1.Name = "login_AF__user_control1";
-            this.login_AF__user_control1.Size = new System.Drawing.Size(1577, 838);
+            this.login_AF__user_control1.Size = new System.Drawing.Size(1577, 836);
             this.login_AF__user_control1.TabIndex = 0;
             // 
             // gunaControlBox2
@@ -111,7 +111,7 @@
             this.login_Go_back_button.OnHoverForeColor = System.Drawing.Color.White;
             this.login_Go_back_button.OnHoverImage = null;
             this.login_Go_back_button.OnPressedColor = System.Drawing.Color.Black;
-            this.login_Go_back_button.Size = new System.Drawing.Size(143, 30);
+            this.login_Go_back_button.Size = new System.Drawing.Size(609, 43);
             this.login_Go_back_button.TabIndex = 11;
             this.login_Go_back_button.Text = "Go Back";
             this.login_Go_back_button.Click += new System.EventHandler(this.login_Go_back_button_Click);
@@ -125,13 +125,14 @@
             this.gunaControlBox3.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.gunaControlBox3.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox3.IconSize = 15F;
-            this.gunaControlBox3.Location = new System.Drawing.Point(1490, 0);
+            this.gunaControlBox3.Location = new System.Drawing.Point(1459, 0);
             this.gunaControlBox3.Name = "gunaControlBox3";
             this.gunaControlBox3.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(52)))), ((int)(((byte)(51)))));
             this.gunaControlBox3.OnHoverIconColor = System.Drawing.Color.White;
             this.gunaControlBox3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaControlBox3.Size = new System.Drawing.Size(47, 43);
+            this.gunaControlBox3.Size = new System.Drawing.Size(59, 43);
             this.gunaControlBox3.TabIndex = 13;
+            this.gunaControlBox3.Click += new System.EventHandler(this.gunaControlBox3_Click);
             // 
             // gunaControlBox4
             // 
@@ -141,12 +142,12 @@
             this.gunaControlBox4.AnimationSpeed = 0.03F;
             this.gunaControlBox4.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox4.IconSize = 15F;
-            this.gunaControlBox4.Location = new System.Drawing.Point(1537, 0);
+            this.gunaControlBox4.Location = new System.Drawing.Point(1524, 0);
             this.gunaControlBox4.Name = "gunaControlBox4";
             this.gunaControlBox4.OnHoverBackColor = System.Drawing.Color.Red;
             this.gunaControlBox4.OnHoverIconColor = System.Drawing.Color.White;
             this.gunaControlBox4.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaControlBox4.Size = new System.Drawing.Size(41, 43);
+            this.gunaControlBox4.Size = new System.Drawing.Size(54, 43);
             this.gunaControlBox4.TabIndex = 12;
             // 
             // Admin_Form

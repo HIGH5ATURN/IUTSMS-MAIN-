@@ -17,18 +17,16 @@ namespace IUTSMS_MAIN_
             InitializeComponent();
         }
 
-        //for showpassword>
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void checkBox_CheckedChanged(object sender, EventArgs e)
         {
-            if(login_pass_textBox.UseSystemPasswordChar)
+            if(checkBox.Checked==true)
             {
                 login_pass_textBox.UseSystemPasswordChar = false;
             }
             else
             {
-                login_pass_textBox.UseSystemPasswordChar = true;
+                login_pass_textBox.UseSystemPasswordChar=true;  
             }
         }
-        //for showpassword<
     }
 }

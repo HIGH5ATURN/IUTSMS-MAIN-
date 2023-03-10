@@ -63,5 +63,10 @@ namespace IUTSMS_MAIN_
             th.Start();
             this.Close();
         }
+
+        private void gunaControlBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace IUTSMS_MAIN_
         {
             InitializeComponent();
         }
+
+        private void gunaTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
